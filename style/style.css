@@ -41,7 +41,73 @@ margin-left: 300px;
     padding: 50px 200px 0px;
 
 }
+.flower-heading {
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.detels {
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.picture {
+    
+    margin: 15px 400px;
+    width: 464px;
+    height: 538px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    display: inline-flex;
+    gap: 30px;
+    
+}
+.first-image {
+    
+    width: 310px;
+    height: 428px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.second-image {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.third-image {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
 
+
+}
+.flower-name {
+color: #272727;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+position: relative;
+bottom: 100px;
+}
+.first-name {
+    margin-left: 190px;
+}
+.second-name{
+    margin-right: 300px;
+}
+.third-name{
+    text-align: center;
+}
 
 .about-section {
     display: flex;
@@ -50,6 +116,7 @@ margin-left: 300px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 30px;
     padding-left: 400px;
+    math-shift: ;
 
 }
 
