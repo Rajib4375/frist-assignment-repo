@@ -102,7 +102,7 @@ font-weight: 400;
 line-height: 30px;
 margin-left: 600px;
 width: 594px;
-padding-top: 15px;
+margin-top: 15px;
 }
 .instagram-image {
     display: flex;
@@ -113,7 +113,7 @@ padding-top: 15px;
 background-image: url(../Rectangle\ 9.png);
 width: 1440px;
 height: 449px;
-margin: 0px 220px;
+margin: 0px 240px;
 }
 .main-heder { 
 color: #272727;
@@ -121,13 +121,16 @@ text-align: center;
 font-size: 40px;
 font-weight: 800;
 padding-top: 120px;
+padding: 120px;
 }
 .main-details {
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
 font-weight: 400;
-padding-top: 5px;
+position: relative;
+bottom: 140px;
+
 }
 .primary-placeholder {
 width: 500px;
@@ -135,6 +138,8 @@ height: 64px;
 border-radius: 8px;
 background: #FFF;
 margin-left: 450px;
+position: relative;
+bottom: 120px;
 }
 .but-banner {
     color: #FFF;
@@ -143,13 +148,15 @@ margin-left: 450px;
     border-radius: 8px;
     background: #E55473;
     border: none;
+    position: relative;
+    bottom: 120px;
 }
 
     .footer-section {
     width: 1922px;
     height: 449px;
     background: #111010;
-    margin-top: 100px;
+    margin-top: 120px;
     }
 
 .footer-title {
@@ -158,7 +165,8 @@ font-family: Lato;
 font-size: 48px;
 font-weight: 800;
 text-align: center;
-gap: 128px;
+position: relative;
+top: 120px;
 }
 .footer-details {
 color: rgba(255, 255, 255, 0.90);
@@ -167,13 +175,15 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 width: 625px;
-margin-left: 650px;
+margin: 130px 650px;
 }
 .second-detais {
 color: rgba(255, 255, 255, 0.40);
 text-align: center;
 font-size: 16px;
-font-weight: 400;
+font-weight:400;
+position: relative;
+bottom: 120px;
 }
 .color-footer {
     color: rgba(255, 255, 255, 1);
